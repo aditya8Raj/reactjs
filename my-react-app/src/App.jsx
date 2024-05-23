@@ -1,10 +1,10 @@
-import Counter from "./Counter";
+import MyComponent from "./MyComponent";
 
 function App() {
   return (
     <>
       {/* <h1>Welcome to my React App</h1> */}
-      <Counter />
+      <MyComponent />
     </>
   );
 }

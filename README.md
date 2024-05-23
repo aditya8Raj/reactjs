@@ -94,4 +94,13 @@ function Example() {
 const [state, setState] = useState(initialState);
 ```
 
-### 🔴 7.
+### 🔴 7. onChange event handler
+
+- The onChange event handler is used to handle the input field data in React.
+- It is triggered when the value of an element changes.
+
+```jsx
+<input type="text" onChange={handleChange} />
+```
+
+### 🔴 8.
