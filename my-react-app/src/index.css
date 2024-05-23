@@ -1,23 +1,27 @@
-.title {
-  color: #333;
-  text-align: center;
+.counter-container {
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.counter-container h1 {
   font-size: 2em;
-  margin-bottom: 20px;
-  font-family: monospace;
+  color: #333;
 }
 
-.input {
-  display: block;
-  width: 100%;
-  max-width: 300px;
-  margin: 0 auto 20px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.counter-container button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.subtitle {
-  color: #666;
-  text-align: center;
-  font-size: 1.5em;
+.counter-container button:hover {
+  background-color: #0056b3;
 }
