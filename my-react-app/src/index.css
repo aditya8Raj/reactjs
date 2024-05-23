@@ -1,15 +1,23 @@
-.welcome-message {
-  font-size: 2rem;
+.title {
   color: #333;
   text-align: center;
-  margin-top: 2rem;
-  background-color: greenyellow;
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-family: monospace;
 }
 
-.logIn-propmt {
-  font-size: 1.5rem;
-  color: #333;
+.input {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.subtitle {
+  color: #666;
   text-align: center;
-  margin-top: 2rem;
-  background-color: red;
+  font-size: 1.5em;
 }

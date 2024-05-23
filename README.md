@@ -64,4 +64,34 @@ class Welcome extends React.Component {
 <Welcome name="Aditya" />
 ```
 
-### 🔴 5.
+### 🔴 5. React hook
+
+- Hooks are functions that let you use state and other React features in functional components.
+- Hooks don’t work inside classes.
+- Hooks allow you to reuse stateful logic without changing your component hierarchy.
+
+```jsx
+import React, { useState } from "react";
+
+function Example() {
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>Click me</button>
+    </div>
+  );
+}
+```
+
+### 🔴 6. useState()
+
+- useState() is a Hook that lets you add React state to function components.
+- It returns an array with two elements. The first element is the current state value and the second element is a function that lets you update it.
+
+```jsx
+const [state, setState] = useState(initialState);
+```
+
+### 🔴 7.
